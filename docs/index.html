@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Academic Project Page</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Audio-driven Talking Face Generation with Stabilized Synchronization Loss</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Dogucan Yaman</a><!--sup>*</sup-->,</span>
+                <span class="author-block">
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">F. Irem Eyiokur</a><!--sup>*</sup-->,</span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Leonard Bearmann</a>
+                  </span>
+                  <span class="author-block">
+                    <a href="FIFTH AUTHOR PERSONAL LINK" target="_blank">Hazim Kemal Ekenel</a>
+                  </span>
+                  <span class="author-block">
+                    <a href="SIXTH AUTHOR PERSONAL LINK" target="_blank">Alexander Waibel</a>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Karlsruhe Institute of Technology<br>ECCV 2024</span>
+                    <!--span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span-->
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <!--span class="link-block">
+                        <a href="https://openaccess.thecvf.com/content/CVPR2024W/NTIRE/papers/Yaman_Audio-Visual_Speech_Representation_Expert_for_Enhanced_Talking_Face_Video_Generation_CVPRW_2024_paper.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span-->
+
+                    <!-- Supplementary PDF link 
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github link 
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span> -->
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2307.09368" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/final_VQFR_videos2.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Comparison of generated videos
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            In the task of talking face generation, the objective is to generate a face video with lips synchronized to the corresponding audio while preserving visual details and identity information. Current methods face the challenge of learning accurate lip synchronization while avoiding detrimental effects on visual quality, as well as robustly evaluating such synchronization. To tackle these problems, we propose utilizing an audio-visual speech representation expert (AV-HuBERT) for calculating lip synchronization loss during training. Moreover, leveraging AV-HuBERT's features, we introduce three novel lip synchronization evaluation metrics, aiming to provide a comprehensive assessment of lip synchronization performance. Experimental results, along with a detailed ablation study, demonstrate the effectiveness of our approach and the utility of the proposed evaluation metrics.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel -->
+<!--section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          First image description.
+        </h2>
+      </div>
+      <div class="item">
+        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Second image description.
+        </h2>
+      </div>
+      <div class="item">
+        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Third image description.
+       </h2>
+     </div>
+     <div class="item">
+      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Fourth image description.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section-->
+<!-- End image carousel -->
+
+
+
+
+<!-- Youtube video -->
+<!--section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section-->
+<!-- End youtube video -->
+
+
+<!-- Video carousel -->
+<!--section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <source src="static/videos/carousel1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <source src="static/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section-->
+<!-- End video carousel -->
+
+<!-- Paper poster 
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+
+<!--
+  <h3 class="title is-4">Re-rendering the input video</h3>
+        <div class="content has-text-justified">
+          <p>
+            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
+            viewpoint such as a stabilized camera by playing back the training deformations.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                 controls
+                 muted
+                 preload
+                 playsinline
+                 width="75%">
+            <source src="./static/videos/replay.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+-->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+        <h4 class="title is-4">1. Generated Videos by Our Model</h4>
+
+        <div class="content has-text-justified">
+          <p>We use 5 different videos with a single audio to generate talking faces. The videos are sample videos presented by <a href=https://github.com/MRzzm/DINet>DINet</a>. For the face enhancement, we used VQFR as we proposed in our paper.</p>
+        </div>
+
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                 controls
+                 muted
+                 preload
+                 playsinline
+                 width="75%">
+            <source src="static/videos/final_VQFR_videos1.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+    
+        <div class="content has-text-justified">
+          <p>We use 5 different videos with a single audio to generate talking faces. The videos are sample videos presented by <a href=https://github.com/MRzzm/DINet>DINet</a>. For the face enhancement, instead of using <a href=https://github.com/TencentARC/VQFR>VQFR</a> that we proposed in our paper, we employed <a href=https://github.com/TencentARC/GFPGAN>GFPGAN</a> for showing effect of different face enhancement methods.</p>
+        </div>
+
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                   controls
+                   muted
+                   preload
+                   playsinline
+                   width="75%">
+              <source src="static/videos/final_GFPGAN_videos.mp4"
+                      type="video/mp4">
+          </video>
+        </div>
+
+        <div class="content has-text-justified">
+          <p>We use 6 different videos with a single audio to generate talking faces. The videos are sample videos presented by <a href=https://github.com/MRzzm/DINet>DINet</a> For the face enhancement, we used <a href=https://github.com/TencentARC/VQFR>VQFR</a> as we proposed in our paper. </p>
+        </div>
+
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                   controls
+                   muted
+                   preload
+                   playsinline
+                   width="75%">
+              <source src="static/videos/final_VQFR_videos2.mp4"
+                      type="video/mp4">
+          </video>
+        </div>
+
+        <div class="content has-text-justified">
+          <p>We use 5 different videos with a single audio to generate talking faces. The videos along with two other audio are presented by <a href=https://opentalker.github.io/video-retalking/>VideoReTalking</a> in their <a href=https://github.com/OpenTalker/video-retalking/tree/main/examples>GitHub page under the examples folder</a>. For the face enhancement, we used <a href=https://github.com/TencentARC/VQFR>VQFR</a> as we proposed in our paper. </p>
+        </div>
+
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                   controls
+                   muted
+                   preload
+                   playsinline
+                   width="75%">
+              <source src="static/videos/final_VQFR_videos3.mp4"
+                      type="video/mp4">
+          </video>
+        </div>
+
+        <div class="content has-text-justified">
+          <p>We use the same 5 videos (presented above) with another single audio to generate talking faces.The videos along with two other audio are presented by <a href=https://opentalker.github.io/video-retalking/>VideoReTalking</a> in their GitHub page under the examples folder. For the face enhancement, we used <a href=https://github.com/TencentARC/VQFR>VQFR</a> as we proposed in our paper. </p>
+        </div>
+
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                   controls
+                   muted
+                   preload
+                   playsinline
+                   width="75%">
+              <source src="static/videos/final_VQFR_videos4.mp4"
+                      type="video/mp4">
+          </video>
+        </div>
+        
+        <h4 class="title is-4">2. Comparison with the Recent Methods</h4>
+
+        <div class="content has-text-justified">
+          <p>Here, we compare our method with the most recent and accurate methods; <a href=https://github.com/MRzzm/DINet>DINet (AAAI 2023)</a>, <a href=https://github.com/Sxjdwang/TalkLip>TalkLip (CVPR 2023)</a>, and <a href=https://opentalker.github.io/video-retalking/>VideoReTalking (SIGGRAPH 2022)</a>. Since the other recent methods in our paper (e.g., SyncTalkFace and LipFormer) have no public models, we were not be able to include them into this comparison. Please note that when we tried to generate video using FPS different than 25 with DINet and TalkLip models, the audio-visual synchronization was not obtained. Therefore, we had to keep the FPS as 25 (the authors shared like that) and generated below videos. On the other hand, with other models and our model, we kept the FPS the same with the original video which is 29.97. Therefore, DINet and TalkLip outputs look like they have different pose and head movemets. This is because of aforementioned FPS detail. We would like to clarify that there is <b>NO</b> generation error or <b>ANY</b> problem on these two models. However, if it is not possible do generate video with FPS value different than 25, then it is a significant drawback of these methods since there are lots of videos that have FPS value over than 30. In this case, those videos will be longer or suffer from lack of smoothness and information loss. </p>
+        </div>
+
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                   controls
+                   muted
+                   preload
+                   playsinline
+                   width="75%">
+              <source src="static/videos/comparison1.mp4"
+                      type="video/mp4">
+          </video>
+        </div>
+
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                   controls
+                   muted
+                   preload
+                   playsinline
+                   width="75%">
+              <source src="static/videos/comparison2.mp4"
+                      type="video/mp4">
+          </video>
+        </div>
+
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                   controls
+                   muted
+                   preload
+                   playsinline
+                   width="75%">
+              <source src="static/videos/comparison3.mp4"
+                      type="video/mp4">
+          </video>
+        </div>
+
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                   controls
+                   muted
+                   preload
+                   playsinline
+                   width="75%">
+              <source src="static/videos/comparison_final.mp4"
+                      type="video/mp4">
+          </video>
+        </div>
+
+        <h4 class="title is-4">3. Comparison with the Older Methods</h4>
+
+        <div class="content has-text-justified">
+          <p>Here, we compare our results with <a href=https://github.com/Hangz-nju-cuhk/Talking-Face_PC-AVS>PC-AVS</a>, <a href=https://github.com/Rudrabha/Wav2Lip>Wav2Lip</a> and <a href=https://jixinya.github.io/projects/EAMM/>EAMM</a> papers. We chose two videos from <a href=https://github.com/MRzzm/HDTF>HDTF</a> dataset and randomly took a clip from each of them. In the end, we run the published models to generate the videos and combine in a single video by only putting faces to make the comparison easier.</p>
+        </div>
+
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                   controls
+                   muted
+                   preload
+                   playsinline
+                   width="75%">
+              <source src="static/videos/comparison_with_older_methods.mp4"
+                      type="video/mp4">
+          </video>
+        </div>
+
+        <h4 class="title is-4">4. Ablation Study</h4>
+
+        <div class="content has-text-justified">
+          <p>This video contains output of different setups that were explained under <b>Section 4.3 for ablation of the components</b> in our paper. The scores were presented in first part of <b>Table 2</b> (Ablation=Components) in the paper.</p>
+          <ol>
+            <li><FONT COLOR="orange"><b>Setup A:</FONT></b> Base model with original/plain synchronization loss</li>
+            <li><FONT COLOR="orange"><b>Setup D:</FONT></b> Base model with silent-lip generation model and pretrained SyncNet audio encoder</li>
+            <li><FONT COLOR="orange"><b>Setup E:</FONT></b> Setup D with our proposed stabilized synchronization loss instead of original/plain synchronization loss</li>
+            <li><FONT COLOR="orange"><b>Setup G:</FONT></b> Setup E with our adaptive triplet loss. Full model with all our contributions and without post-processing (face enhancement).</li>
+          </ol>
+        </div>
+
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                   controls
+                   muted
+                   preload
+                   playsinline
+                   width="75%">
+              <source src="static/videos/ablation_study.mp4"
+                      type="video/mp4">
+          </video>
+        </div>
+
+        <h4 class="title is-4">5. Additional Videos Generated by Our Model</h4>
+        <br>
+        <h4 class="title is-4">5.1. Our full pipeline with face restoration</h4>
+
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                   controls
+                   muted
+                   preload
+                   playsinline
+                   width="75%">
+              <source src="static/videos/video7.mp4"
+                      type="video/mp4">
+          </video>
+        </div>
+
+        <h4 class="title is-4">5.2. Our full pipelien without face restoration</h4>
+
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                   controls
+                   muted
+                   preload
+                   playsinline
+                   width="75%">
+              <source src="static/videos/video14.mp4"
+                      type="video/mp4">
+          </video>
+        </div>
+
+        <h4 class="title is-4">5.3. Different speakers with the same audio</h4>
+
+        <div class="content has-text-justified">
+          <p>We use 6 different speakers and use 5 different audios consecutively to generate talking faces.</p>
+        </div>
+
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                   controls
+                   muted
+                   preload
+                   playsinline
+                   width="75%">
+              <source src="static/videos/demo2.mp4"
+                      type="video/mp4">
+          </video>
+        </div>
+
+        
+
+      </div>
+    </div>
+  </section>
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@misc{yaman2024audiodriventalkingfacegeneration,
+        title={Audio-driven Talking Face Generation with Stabilized Synchronization Loss}, 
+        author={Dogucan Yaman and Fevziye Irem Eyiokur and Leonard Bärmann and Hazim Kemal Ekenel and Alexander Waibel},
+        year={2024},
+        eprint={2307.09368},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV},
+        url={https://arxiv.org/abs/2307.09368}, 
+  }
+    </code></pre>
+  </div>  
+  </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
